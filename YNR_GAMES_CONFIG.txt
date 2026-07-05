@@ -1,0 +1,202 @@
+================================================================================
+                    YNR-GAMES CUSTOMIZATION CONFIG
+                    Version: 1.0 (2026)
+================================================================================
+
+📌 PROJECT IDENTITY
+================================================================================
+APP_NAME=YNR-Games
+APP_DISPLAY_NAME=YNR-Games
+COMPANY_NAME=Yanier Ruiz
+AUTHOR_NAME=Yanier Ruiz
+AUTHOR_EMAIL=yanieriuyt@example.com
+AUTHOR_GITHUB=yanieriuyt
+
+VERSION_MAJOR=1
+VERSION_MINOR=0
+VERSION_PATCH=0
+VERSION_BUILD=20260705
+VERSION_FULL=1.0.0
+
+================================================================================
+🎨 VISUAL IDENTITY & BRANDING
+================================================================================
+
+PRIMARY_COLOR=#FF6B35          # Orange
+SECONDARY_COLOR=#004E89        # Dark Blue
+ACCENT_COLOR=#F7B32B          # Gold
+TEXT_COLOR=#FFFFFF             # White
+BACKGROUND_COLOR=#1A1A1A       # Dark Gray
+
+THEME_NAME=YNR-Games Dark
+THEME_STYLE=modern_dark
+
+# Logo and Icon Settings
+LOGO_PATH=assets/logo/ynr-logo.png
+ICON_PATH=assets/icons/ynr-icon.png
+FAVICON_PATH=assets/icons/favicon.ico
+
+================================================================================
+📱 PLATFORM CONFIGURATION
+================================================================================
+
+# ANDROID
+ANDROID_PACKAGE_NAME=com.ynr.games
+ANDROID_APP_NAME=YNR-Games
+ANDROID_MINIMUM_SDK=21
+ANDROID_TARGET_SDK=34
+ANDROID_VERSION_CODE=10000
+ANDROID_VERSION_NAME=1.0.0
+ANDROID_KEYSTORE_ALIAS=ynr-games
+ANDROID_STORE_NAME=YNR-Games
+
+# iOS
+IOS_BUNDLE_ID=com.yanieriuyt.ynrgames
+IOS_BUNDLE_NAME=YNR-Games
+IOS_BUNDLE_VERSION=1.0.0
+IOS_BUNDLE_BUILD=20260705
+IOS_MINIMUM_VERSION=12.0
+IOS_TARGET_DEVICE=universal
+
+# WINDOWS
+WINDOWS_APP_ID={YNRGAMES-2026-001}
+WINDOWS_PUBLISHER=Yanier Ruiz
+WINDOWS_PRODUCT_NAME=YNR-Games
+WINDOWS_FILE_DESCRIPTION=PSP Emulator - YNR-Games Edition
+WINDOWS_LEGAL_COPYRIGHT=© 2026 Yanier Ruiz. Based on PPSSPP
+
+# macOS
+MACOS_BUNDLE_ID=com.yanieriuyt.ynrgames
+MACOS_BUNDLE_NAME=YNR-Games
+MACOS_BUNDLE_VERSION=1.0.0
+MACOS_BUNDLE_EXECUTABLE=ynr-games
+
+# LINUX
+LINUX_DESKTOP_NAME=YNR-Games
+LINUX_DESKTOP_COMMENT=PSP Emulator
+LINUX_DESKTOP_ICON=ynr-games
+
+================================================================================
+🔗 BRANDING STRINGS
+================================================================================
+
+WINDOW_TITLE=YNR-Games - PSP Emulator
+ABOUT_TEXT=YNR-Games v{VERSION}\nA personalized PPSSPP fork\nBased on PPSSPP by Henrik Rydgård\nModified by Yanier Ruiz
+TAGLINE=Play PSP Games Anywhere
+DESCRIPTION=High-performance PSP emulator for modern devices
+
+================================================================================
+🌐 WEB & ONLINE PRESENCE
+================================================================================
+
+WEBSITE_URL=https://github.com/yanieriuyt/YNR-Games
+GITHUB_REPO=yanieriuyt/YNR-Games
+GITHUB_URL=https://github.com/yanieriuyt/YNR-Games
+DISCORD_SERVER=https://discord.gg/ynrgames (placeholder)
+TWITTER_HANDLE=@yanieriuyt
+EMAIL_SUPPORT=yanieriuyt@example.com
+
+================================================================================
+📁 ASSET DIRECTORIES
+================================================================================
+
+ASSETS_DIR=assets/
+LOGO_DIR=assets/logos/
+ICON_DIR=assets/icons/
+SCREENSHOT_DIR=assets/screenshots/
+BANNER_DIR=assets/banners/
+THEME_DIR=assets/themes/
+
+================================================================================
+🔧 BUILD CONFIGURATION OVERRIDES
+================================================================================
+
+# CMake Options
+USE_DISCORD=ON
+USE_FFMPEG=ON
+USE_MINIUPNPC=ON
+GOLD=OFF
+IOS_APP_STORE=OFF
+USE_IAP=OFF
+
+# Feature Flags
+ENABLE_ACHIEVEMENTS=ON
+ENABLE_NETWORKING=ON
+ENABLE_SCREENSHOTS=ON
+ENABLE_RECORDING=ON
+
+================================================================================
+📝 DOCUMENTATION
+================================================================================
+
+README_FILE=README.md
+LICENSE_FILE=LICENSE.TXT
+CHANGELOG_FILE=DEVELOPMENT_CHANGELOG.md
+CONTRIBUTING_FILE=CONTRIBUTING.md
+
+================================================================================
+🔐 SECURITY & SIGNING
+================================================================================
+
+# Android Signing (fill these in)
+ANDROID_KEYSTORE_FILE=keystore/ynr-games.keystore
+ANDROID_KEYSTORE_PASSWORD=YOUR_PASSWORD_HERE
+ANDROID_KEY_PASSWORD=YOUR_PASSWORD_HERE
+
+# iOS Code Signing
+IOS_DEVELOPMENT_TEAM=XXXXXXXXXX
+IOS_CODE_SIGN_IDENTITY=iPhone Developer
+
+# Windows Code Signing
+WINDOWS_CERT_FILE=certificates/codesign.pfx
+WINDOWS_CERT_PASSWORD=YOUR_PASSWORD_HERE
+
+================================================================================
+🎯 RELEASE & DISTRIBUTION
+================================================================================
+
+RELEASE_CHANNEL=stable
+AUTO_UPDATE_ENABLED=false
+BETA_PROGRAM_ENABLED=true
+
+PLAYSTORE_URL=
+APPSTORE_URL=
+WINDOWS_STORE_URL=
+
+================================================================================
+📊 ANALYTICS & TELEMETRY
+================================================================================
+
+ANALYTICS_ENABLED=false
+CRASH_REPORTING_ENABLED=false
+ERROR_LOGGING_ENABLED=true
+TELEMETRY_ENABLED=false
+
+================================================================================
+🎮 EMULATOR FEATURES
+================================================================================
+
+DEFAULT_GRAPHICS_API=vulkan
+AUTO_DETECT_GRAPHICS=true
+UPSCALING_DEFAULT=2
+RESOLUTION_SCALE=1.0
+ENABLE_PLUGIN_SYSTEM=true
+
+================================================================================
+FINAL NOTES
+================================================================================
+
+Este archivo centraliza TODA la configuración de personalización de YNR-Games.
+Actualiza estos valores según tus necesidades y luego ejecuta los scripts
+de personalización para aplicar los cambios a todo el proyecto.
+
+Next Steps:
+1. Review and update all values above
+2. Run personalization scripts
+3. Generate platform-specific assets
+4. Build and test on all platforms
+
+Last Updated: 2026-07-05
+Maintained By: Yanier Ruiz
+
+================================================================================
