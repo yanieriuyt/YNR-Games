@@ -1,7 +1,15 @@
 #pragma once
 
+// ============================================================================
+// YNR-GAMES CUSTOMIZATION - Branding and Configuration
+// ============================================================================
 // This file is included by C, C++ and ASM files
 // So do not output any token!
+
+// YNR-Games Branding Defines
+#define YNR_GAMES_BRANDING 1
+#define YNR_GAMES_VERSION "1.0.0"
+#define YNR_GAMES_BUILD_DATE "2026-07-05"
 
 #define PPSSPP_ARCH(PPSSPP_FEATURE) (PPSSPP_ARCH_##PPSSPP_FEATURE)
 #define PPSSPP_PLATFORM(PPSSPP_FEATURE) (PPSSPP_PLATFORM_##PPSSPP_FEATURE)
